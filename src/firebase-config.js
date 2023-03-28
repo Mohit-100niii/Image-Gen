@@ -10,12 +10,12 @@ import {getStorage} from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD9JbNeBOg_VIn_agDVKEhsVbQRdHNeOqE",
-  authDomain: "imagegen-44373.firebaseapp.com",
-  projectId: "imagegen-44373",
-  storageBucket: "imagegen-44373.appspot.com",
-  messagingSenderId: "934840352038",
-  appId: "1:934840352038:web:32ff047e6a3cada18415e7"
+  apiKey: "YOURKEY",
+  authDomain: "YOURKEY",
+  projectId: "YOURKEY",
+  storageBucket: "YOURKEY",
+  messagingSenderId: "YOURKEY",
+  appId: "YOURKEY"
 };
 
 // Initialize Firebase
@@ -27,7 +27,7 @@ const Provider = new GoogleAuthProvider();
 const db = getFirestore(app)
 const storage = getStorage(app)
 
-const API_TOKEN = "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";
+const API_TOKEN = "YOURKEY";
 
 
 export {Auth, Provider, db, storage, API_TOKEN};
